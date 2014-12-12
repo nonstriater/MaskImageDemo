@@ -40,6 +40,8 @@
     
     [_imageView maskWithImage:[UIImage imageNamed:@"bubble_regular"] resizableImage:UIEdgeInsetsMake(20, 20, 20, 30) padding:UIEdgeInsetsMake(0, 0, 0, 0)];
     
+    [_button maskWithImage:[UIImage imageNamed:@"bubble_regular"] resizableImage:UIEdgeInsetsMake(20, 20, 20, 30) padding:UIEdgeInsetsMake(0, 0, 0, 0)];
+    
     
 }
 

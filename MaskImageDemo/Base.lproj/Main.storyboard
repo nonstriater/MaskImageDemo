@@ -77,11 +77,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="H71-Wt-MlB">
                                 <rect key="frame" x="45" y="109" width="231" height="177"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-U9-ghc">
+                                <rect key="frame" x="51" y="342" width="140" height="75"/>
+                                <state key="normal" image="pic">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
+                        <outlet property="button" destination="SfT-U9-ghc" id="g1c-yl-4Re"/>
                         <outlet property="imageView" destination="H71-Wt-MlB" id="7Aa-6T-ssj"/>
                     </connections>
                 </viewController>
